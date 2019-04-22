@@ -1,0 +1,14 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskName": "task-test",
+      "appliesTo": "test.txt",
+      "type": "launch",
+      "command": "where",
+      "contextType": "build",
+      "args": [ "link" ],
+      "inheritEnvironments": ["msvc_x64"]
+    }
+  ]
+}
